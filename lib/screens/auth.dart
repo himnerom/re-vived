@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class HomeScreen extends StatefulWidget {
-  const HomeScreen({super.key});
+class AuthScreen extends StatefulWidget {
+  const AuthScreen({super.key});
 
   @override
-  State<HomeScreen> createState() => _HomeScreenState();
+  State<AuthScreen> createState() => _AuthScreenState();
 }
 
-class _HomeScreenState extends State<HomeScreen> {
+class _AuthScreenState extends State<AuthScreen> {
   @override
   Widget build(BuildContext context) {
     return const Scaffold(
@@ -17,14 +17,12 @@ class _HomeScreenState extends State<HomeScreen> {
             Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
-                "Welcome back,\nOlga님 !",
+                "Auth screen",
                 style: TextStyle(
-                  fontFamily: 'OblivianTextLight',
                   fontSize: 48,
                   height: 1.1,
                 ),
               ),
-              
             ),
           ],
         ),
